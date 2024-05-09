@@ -1,0 +1,34 @@
+time and space complexities:
+
+DFS: 
+time: O(V+E)
+space: O(V)
+
+BFS:
+time: O(V+E)
+space: O(V)
+
+A-star: best search
+time: O(b^d)
+space: O(b^d)
+b: branching(avg. no. of successor per state)
+d:maximum depth of search
+
+Prims:
+time: O(V^2)
+space: O(V^)
+using adjacency matrix
+
+time: O((V+E)logV)
+using adjacency list
+
+Kruskal's
+time: O(ElogE)
+space: O(V+E)
+
+N-queens backtracking:
+time: worst: O(N!)
+
+N-queens branch and bound
+O(N^2)
+
